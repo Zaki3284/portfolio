@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?y29jtb');
-  src:  url('fonts/icomoon.eot?y29jtb#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?y29jtb') format('truetype'),
-    url('fonts/icomoon.woff?y29jtb') format('woff'),
-    url('fonts/icomoon.svg?y29jtb#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?kduhv1');
+  src:  url('fonts/icomoon.eot?kduhv1#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?kduhv1') format('truetype'),
+    url('fonts/icomoon.woff?kduhv1') format('woff'),
+    url('fonts/icomoon.svg?kduhv1#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,15 +25,30 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-moon:before {
+.icon-verified:before {
   content: "\e900";
-}
-.icon-moon1:before {
-  content: "\e901";
 }
 .icon-menu:before {
   content: "\e9bd";
 }
+.icon-sun:before {
+  content: "\e9d4";
+}
+.icon-brightness-contrast:before {
+  content: "\e9d6";
+}
 .icon-cross:before {
   content: "\ea0f";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-linkedin:before {
+  content: "\eac9";
 }

@@ -22,6 +22,7 @@ html {box-sizing: border-box;}
   --subtitle:rgb(161,161,170);
   --bgHeader:rgb(39 ,39,42);
   --blue: rgb(93, 188, 252);
+  --icon-hover: #d4d4d8;
 }
 .light {
   --primary: #fff;
@@ -38,6 +39,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   background-color: var(--secondery);
+  padding: 0 4.8rem;
 }
 
 
@@ -75,3 +77,9 @@ button:hover{cursor: pointer;}
 
 
 button:active{scale: 0.9;}
+
+
+@media (min-width: 500px) and (max-width: 500px) {
+  div {width:98%;
+    padding: 0 1.7rem;}
+  }

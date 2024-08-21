@@ -4,7 +4,7 @@ export default function Header() {
 const [showmodel, setshowmodel] = useState(false); 
  return (
     <header  className='flex'>
-       <button onClick={() => {setshowmodel(true)}} className=' menu icon-menu felx'></button>
+       <button onClick={() => {setshowmodel(true)}} className='menu icon-menu flex'></button>
          <div></div>
       <nav>
         <ul className='flex'>
@@ -18,7 +18,7 @@ const [showmodel, setshowmodel] = useState(false);
       </nav>
 
       <button className='mode felx'>
-        <span className='icon-moon'></span>
+        <span className='icon-brightness-contrast'></span>
       </button>
 
 { showmodel && (
